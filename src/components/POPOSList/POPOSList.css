@@ -19,10 +19,11 @@
     }
   }
 
-  /* .POPOSListForm {
+  .POPOSListForm {
     display: flex;
-    align-items: flex-start;
-  } */
+    justify-content: center;
+    gap: 10px;
+  }
   
   .POPOSListForm input, .POPOSListForm button {
     padding: 1em;

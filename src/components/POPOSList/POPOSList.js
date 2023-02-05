@@ -3,6 +3,7 @@ import POPOSSpace from '../POPOSSpace/POPOSSpace';
 import './POPOSList.css';
 import data from '../../sfpopos-data.js'
 import { useState } from 'react'
+import RandomSpace from '../RandomSpace/RandomSpace'
 
 
 function POPOSList() {
@@ -44,6 +45,7 @@ function POPOSList() {
 				/>
 				<button type="submit">Submit</button>
 			</form>
+      <RandomSpace />
       </div>
       <div className="POPOSList">
 			{spaces}
