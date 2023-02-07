@@ -37,19 +37,24 @@ function POPOSList() {
   return (
     <div>
       <div className="POPOSListForm">
-      <form>
-				<input
-					value={query}
-					placeholder="search"
-					onChange={(e) => setQuery(e.target.value)}
-				/>
-				<button type="submit">Submit</button>
-			</form>
-      <RandomSpace />
+        <div>
+          <form>
+            <input
+              value={query}
+              placeholder="search"
+              onChange={(e) => setQuery(e.target.value)}
+            />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div className = "randomspace">
+          <RandomSpace />
+        </div>
+        
       </div>
       <div className="POPOSList">
 			{spaces}
-    </div>
+      </div>
       <div className="Footer">
           <hr className="Line"/>
         <small>Mitchell Hudson copyright 2019</small>
