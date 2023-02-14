@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployed Page
+https://epixcoder.github.io/ACS1320_React_App/
+
 ## Available Scripts
 
 In the project directory, you can run:
