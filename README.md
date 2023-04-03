@@ -7,13 +7,13 @@ https://epixcoder.github.io/ACS1320_React_App/
 
 ## User Stories
 ### User 1
-As a tourist visiting San Francisco, I want to find a nice public space where I can sit and relax, so I go to your website and use the search function to look for spaces with benches or chairs. I find a few options and decide to visit one of them. I click on the space's page and read the description, which includes the address and directions on how to get there. I also check the business hours to make sure the space is open when I plan to visit. Finally, I use the map and the photos to get a better idea of the space and decide if it's the right fit for me.
+As a tourist visiting San Francisco, I want to find a nice public space where I can sit and relax, so I go to the website and use the search function to look for spaces with benches or chairs. I find a few options and decide to visit one of them. I click on the space's page and read the description, which includes the address and directions on how to get there. I also check the business hours to make sure the space is open when I plan to visit. Finally, I use the map and the photos to get a better idea of the space and decide if it's the right fit for me.
 
 ### User 2
-As a local resident who works near the Financial District, I often need a quiet place to have lunch or take a break from work. I remember seeing your website advertised somewhere and decide to give it a try. I click on the "random" button and get taken to a page for a small park I've never heard of before. I read the description and find out that it has plenty of shade and some picnic tables. I decide to give it a try and visit it the next day. I enjoy the space and decide to sign up for your website so that I can bookmark it and also receive updates about new spaces added to the list.
+As a local resident who works near the Financial District, I often need a quiet place to have lunch or take a break from work. I remember seeing the website advertised somewhere and decide to give it a try. I click on the "random" button and get taken to a page for a small park I've never heard of before. I read the description and find out that it has plenty of shade and some picnic tables. I decide to give it a try and visit it the next day. I enjoy the space and decide to sign up for your website so that I can bookmark it and also receive updates about new spaces added to the list.
 
 ### User 3
-As a researcher studying urban public spaces, I need a comprehensive list of all the privately owned public spaces in San Francisco, along with their features and characteristics. I find your website and browse the index to see all the spaces listed. I use the search function to filter the spaces by size and type, and then download the results as a spreadsheet. I also sign up for your newsletter to stay informed about any updates or changes to the list.
+As a researcher studying urban public spaces, I need a comprehensive list of all the privately owned public spaces in San Francisco, along with their features and characteristics. I find the website and browse the index to see all the spaces listed. I use the search function to filter the spaces, and then I note down the results. I also sign up to the page to stay informed about any updates or changes to the list.
 
 ## Website Outline
 ```
