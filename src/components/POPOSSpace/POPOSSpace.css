@@ -2,6 +2,7 @@
     width: 100%;
     text-align: center;
     position: relative;
+    max-width: 300px;
   }
   
   .POPOSSpace > img {
@@ -38,3 +39,9 @@
     padding: 0.25em 0.5em;
     background-color: rgba(255, 255, 255, 0.9);
   }
+
+  /* @media screen and (max-width: 480px) {
+    .POPOSSpace > h1 {
+      
+    }
+  } */

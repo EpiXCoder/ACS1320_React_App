@@ -32,8 +32,6 @@ function POPOSList() {
     )
   })
     
-
-
   return (
     <div>
       <div className="POPOSListForm">
@@ -50,7 +48,7 @@ function POPOSList() {
         <div className = "randomspace">
           <RandomSpace />
         </div>
-        
+      
       </div>
       <div className="POPOSList">
 			{spaces}

@@ -8,6 +8,7 @@ import About from './components/About/About';
 import POPOSList from './components/POPOSList/POPOSList';
 import reportWebVitals from './reportWebVitals';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails';
+import Register from './components/Registration/POPOSRegister';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -20,6 +21,7 @@ root.render(
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
+        <Route path="/register" element={<Register />} />
       </Route>
     </Routes>
   </Router>,
