@@ -1,12 +1,12 @@
 .POPOSDetails {
 	display: flex;
 	flex-direction: row-reverse;
-	width: 960px;
+	width: 100%;
 	margin: auto;
 }
 
 .POPOSDetails .POPOSDetails-info {
-	flex: 1;
+	flex: 1 1;
 	text-align: left;
 	padding: 0 1em;
 }
@@ -17,7 +17,7 @@
 }
 
 .POPOSDetails .POPOSDetails-image {
-	flex: 2;
+	flex: 2 1;
 }
 
 .POPOSDetails .POPOSDetails-image img {

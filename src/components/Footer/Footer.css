@@ -1,0 +1,7 @@
+.Footer{
+    color: white;
+    background-color:  rgb(5, 151, 161);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-shrink: 0;
+}

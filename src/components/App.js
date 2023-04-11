@@ -2,14 +2,18 @@ import React from 'react';
 import './App.css';
 import { Outlet } from 'react-router-dom'
 import Title from './Title/Title';
+import Footer from './Footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
-    <Title />
-    <Outlet />
-  </div>
+      <div className='App-content'>
+        <Title />
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
   );
 }
 

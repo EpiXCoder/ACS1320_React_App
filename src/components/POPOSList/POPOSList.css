@@ -8,6 +8,14 @@
   justify-items: center;
   }
 
+  .button-div {
+    display: flex;
+  }
+
+  .randomspace{
+    margin-left: 10px;
+  }
+
   @media only screen and (max-width: 960px) {
     .POPOSList {
       grid-template-columns: 1fr 1fr;
@@ -18,6 +26,13 @@
     .POPOSList {
       grid-template-columns: 1fr;
     }
+    .button-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .randomspace{
+      margin-top: 10px;
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -26,6 +41,10 @@
       }
     .POPOSListForm {
       flex-wrap: wrap;
+    }
+    .button-div {
+      display: flex;
+      flex-direction: column;
     }
   }
 

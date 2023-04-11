@@ -22,7 +22,8 @@ function SignUpForm() {
 
   return (
     <form id="signup-form" onSubmit={handleSubmit}>
-      <h2>Sign Up Form</h2>
+      <h2>Sign Up</h2>
+      <br></br>
       <label htmlFor="username-input">
         Username:
         <input
@@ -33,7 +34,7 @@ function SignUpForm() {
           onChange={handleInputChange}
         />
       </label>
-      <br />
+  
       <label htmlFor="password-input">
         Password:
         <input
@@ -44,7 +45,7 @@ function SignUpForm() {
           onChange={handleInputChange}
         />
       </label>
-      <br />
+
       <label htmlFor="firstName-input">
         First Name:
         <input
@@ -55,7 +56,7 @@ function SignUpForm() {
           onChange={handleInputChange}
         />
       </label>
-      <br />
+
       <label htmlFor="lastName-input">
         Last Name:
         <input
@@ -66,7 +67,7 @@ function SignUpForm() {
           onChange={handleInputChange}
         />
       </label>
-      <br />
+
       <label htmlFor="email-input">
         Email:
         <input
@@ -77,8 +78,9 @@ function SignUpForm() {
           onChange={handleInputChange}
         />
       </label>
-      <br />
+
       <button className="signup-button" type="submit">Sign Up</button>
+      <br></br>
     </form>
   );
 }

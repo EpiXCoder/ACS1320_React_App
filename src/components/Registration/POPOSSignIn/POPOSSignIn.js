@@ -20,6 +20,7 @@ function SignInForm() {
     return (
       <form id="signin-form" onSubmit={handleSubmit}>
         <h2>Already have an account? Sign in.</h2>
+        <br></br>
         <label htmlFor="signin-username-input">
           Username:
           <input
@@ -30,7 +31,6 @@ function SignInForm() {
             onChange={handleInputChange}
           />
         </label>
-        <br />
         <label htmlFor="signin-password-input">
           Password:
           <input
@@ -41,8 +41,8 @@ function SignInForm() {
             onChange={handleInputChange}
           />
         </label>
-        <br />
         <button className="signin-button" type="submit">Sign In</button>
+        <br></br>
       </form>
     );
   }
