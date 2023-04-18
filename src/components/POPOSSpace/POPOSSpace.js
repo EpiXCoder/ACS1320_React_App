@@ -11,7 +11,7 @@ function POPOSSpace(props) {
             src={`${process.env.PUBLIC_URL}/images/${image}`}
             width="300"
             height="300"
-            alt={name}
+            alt={`clickable view of ${name}`}
           />
         </Link>
         <h1>
