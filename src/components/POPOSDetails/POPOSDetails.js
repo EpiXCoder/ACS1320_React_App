@@ -11,9 +11,9 @@ function POPOSDetails(props) {
   const { images, title, desc, hours, features, geo } = data[id]
 
   return (
-    <div>
+    <section aria-label={title}>
       <div className='randomspace-insert'>
-      <RandomSpace />
+        <RandomSpace />
       </div>
       <div className="POPOSDetails">
         <div className="POPOSDetails-image">
@@ -27,8 +27,9 @@ function POPOSDetails(props) {
           <p className="POPOSDetails-geo">Coordinates: { geo.lat } { geo.lon }</p>
         </div>
       </div>
-</div>
-  )
+    </section>
+  );
 }
+
 
 export default POPOSDetails

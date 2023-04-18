@@ -4,4 +4,9 @@
     border: 1px solid;
     font-size: 1rem;
     border-radius: 0.5em;
+    /* Add color contrast to ensure accessibility */
+    background-color: rgb(238, 238, 238);
+    color: #000000;
+    /* Add ARIA attributes */
+    cursor: pointer;
 }

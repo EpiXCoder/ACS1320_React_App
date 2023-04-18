@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './POPOSSignUp.css'
+import "./POPOSSignUp.css";
 
 function SignUpForm() {
   const [formData, setFormData] = useState({
@@ -23,7 +23,7 @@ function SignUpForm() {
   return (
     <form id="signup-form" onSubmit={handleSubmit}>
       <h2>Sign Up</h2>
-      <br></br>
+      <br />
       <label htmlFor="username-input">
         Username:
         <input
@@ -32,9 +32,10 @@ function SignUpForm() {
           name="username"
           value={formData.username}
           onChange={handleInputChange}
+          aria-label="Username"
         />
       </label>
-  
+
       <label htmlFor="password-input">
         Password:
         <input
@@ -43,6 +44,7 @@ function SignUpForm() {
           name="password"
           value={formData.password}
           onChange={handleInputChange}
+          aria-label="Password"
         />
       </label>
 
@@ -54,6 +56,7 @@ function SignUpForm() {
           name="firstName"
           value={formData.firstName}
           onChange={handleInputChange}
+          aria-label="First Name"
         />
       </label>
 
@@ -65,6 +68,7 @@ function SignUpForm() {
           name="lastName"
           value={formData.lastName}
           onChange={handleInputChange}
+          aria-label="Last Name"
         />
       </label>
 
@@ -76,11 +80,14 @@ function SignUpForm() {
           name="email"
           value={formData.email}
           onChange={handleInputChange}
+          aria-label="Email"
         />
       </label>
 
-      <button className="signup-button" type="submit">Sign Up</button>
-      <br></br>
+      <button className="signup-button" type="submit">
+        Sign Up
+      </button>
+      <br />
     </form>
   );
 }

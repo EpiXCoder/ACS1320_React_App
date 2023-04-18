@@ -1,76 +1,74 @@
 .POPOSList {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 2em;
-	max-width: 1200px;
-	margin: auto;
-	padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2em;
   justify-items: center;
-  }
+}
 
+.button-div {
+  display: flex;
+}
+
+.randomspace {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+  .POPOSList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .POPOSList {
+    grid-template-columns: 1fr;
+  }
   .button-div {
     display: flex;
+    flex-direction: column;
   }
-
-  .randomspace{
-    margin-left: 10px;
+  .randomspace {
+    margin-top: 10px;
   }
+}
 
-  @media only screen and (max-width: 960px) {
-    .POPOSList {
-      grid-template-columns: 1fr 1fr;
-    }
+@media screen and (max-width: 480px) {
+  .POPOSList {
+    grid-template-columns: 1fr;
   }
-
-  @media only screen and (max-width: 700px) {
-    .POPOSList {
-      grid-template-columns: 1fr;
-    }
-    .button-div {
-      display: flex;
-      flex-direction: column;
-    }
-    .randomspace{
-      margin-top: 10px;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .POPOSList-grid {
-        grid-template-columns: 1fr;
-      }
-    .POPOSListForm {
-      flex-wrap: wrap;
-    }
-    .button-div {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-
   .POPOSListForm {
+    flex-wrap: wrap;
+  }
+  .button-div {
     display: flex;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    /* grid-gap: 10px; */
-    justify-content: center;
-    gap: 10px;
+    flex-direction: column;
   }
-  
-  .POPOSListForm input, .POPOSListForm button {
-    padding: 1em;
-    margin: 0;
-    border: 1px solid;
-    font-size: 1rem;
-  }
-  
-  .POPOSListForm input {
-    flex: 1;
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-  }
-  
-  .POPOSListForm button {
-    border-top-right-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
-  }
+}
+
+.POPOSListForm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.POPOSListForm input,
+.POPOSListForm button {
+  padding: 1em;
+  margin: 0;
+  border: 1px solid;
+  font-size: 1rem;
+}
+
+.POPOSListForm input {
+  flex: 1;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.POPOSListForm button {
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}

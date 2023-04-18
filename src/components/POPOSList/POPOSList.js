@@ -18,7 +18,6 @@ function POPOSList() {
   })
   .map((obj) => {
     const { id, title, address, images, hours, features} = obj
-  // const spaces = data.map(({ title, address, images, hours }, i) => {
     return (
       <POPOSSpace
         id={id}
@@ -40,23 +39,23 @@ function POPOSList() {
             <form>
               <input
                 value={query}
-                placeholder="search"
+                placeholder="Search"
                 onChange={(e) => setQuery(e.target.value)}
               />
               <button type="submit">Submit</button>
             </form>
           </div>
-          <div className = "randomspace">
+          <div className="randomspace">
             <RandomSpace />
           </div>
         </div>
-      
       </div>
       <div className="POPOSList">
-			{spaces}
+        {spaces}
       </div>
     </div>
   )
 }
+
   
   export default POPOSList
